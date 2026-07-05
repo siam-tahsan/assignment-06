@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Pro Builder",
+    "description": "Create professional ATS-friendly resumes in minutes.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ Resume Templates",
+      "ATS Optimization",
+      "PDF Export",
+      "Cover Letter Generator"
+    ],
+    "icon": "/products/portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Content Writer",
+    "description": "Generate blogs, social posts, and marketing content instantly.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Blog Generator",
+      "SEO Suggestions",
+      "Social Media Content",
+      "50+ Writing Templates"
+    ],
+    "icon": "/products/writing_2327400 1.png"
+  },
+  {
+    "id": 3,
+    "name": "Graphic Design Kit",
+    "description": "Design social media posts, banners, and presentations.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "500+ Templates",
+      "Drag & Drop Editor",
+      "Brand Assets",
+      "PNG Export"
+    ],
+    "icon": "/products/design-tool.png"
+  },
+  {
+    "id": 4,
+    "name": "Project Manager Pro",
+    "description": "Manage tasks, teams, and projects efficiently.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Kanban Boards",
+      "Team Collaboration",
+      "Deadline Tracking",
+      "File Sharing"
+    ],
+    "icon": "/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Video Editor Plus",
+    "description": "Edit videos professionally with AI-powered tools.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "4K Export",
+      "AI Subtitles",
+      "Transitions Library",
+      "Audio Enhancement"
+    ],
+    "icon": "/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Website Builder",
+    "description": "Build stunning websites without coding knowledge.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Responsive Templates",
+      "SEO Tools",
+      "Custom Domain Support",
+      "Analytics Dashboard"
+    ],
+    "icon": "/products/operation.png"
+  }
+]
