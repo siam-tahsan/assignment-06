@@ -14,7 +14,7 @@ function Products({ productsPromise, carts, setCats }) {
 
             <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 max-w-7xl mx-auto'>
                 {
-                    products.map(product => <ProductCard product={product} carts={carts} setCats={setCats}></ProductCard>)
+                    products.map(product => <ProductCard key={product.id} product={product} carts={carts} setCats={setCats}></ProductCard>)
                 }
             </div>
 

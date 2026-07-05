@@ -6,13 +6,22 @@ export default function ProductCard({product, carts, setCats}) {
     
     const haddleBuyNow = () => {
         setIsAddedCart(true)
+        
+        const isFound = carts.find(item=> item.id === product.id)
+        if(isFound){
+            toast.error('Item already added')
+            return
+        }
+        
+        
+        
         setCats([...carts,product])
         toast.success('Item added to Cart!')
     }
 
 
     return (
-        <div className="border border-gray-200 rounded-2xl p-6 shadow-sm transition" key={product.id}>
+        <div className="border border-gray-200 rounded-2xl p-6 shadow-sm transition">
             <div>
                 <div className='flex justify-end'>
                     <span className={`badge badge-outline ${product.tagType === "popular" ? "badge-primary" : product.tagType === "new" ? "badge-success" : "badge-warning"}`}>{product.tag}</span>
@@ -37,7 +46,7 @@ export default function ProductCard({product, carts, setCats}) {
 
             <div className='space-y-2'>
                 {product.features.map(feature =>
-                    <p key={feature.id}>✔{feature}</p>
+                    <p key={feature}>✔{feature}</p>
                 )}
 
                 <button onClick={haddleBuyNow} className="btn btn-primary w-full rounded-full">{isAddedCart ? 'Added to Cart' : 'Buy Now'}</button>
