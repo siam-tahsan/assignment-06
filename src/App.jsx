@@ -8,6 +8,7 @@ import Navbar from './assets/Components/Navbar'
 import Products from './assets/Components/Products'
 import Steps from './assets/Components/Steps'
 import Transparent from './assets/Components/Transparent'
+import Workflow from './assets/Components/Workflow'
 
 const getProducts = async () => {
   const res = await fetch('/products.json')
@@ -37,6 +38,7 @@ function App() {
 
       <Steps></Steps>
       <Transparent></Transparent>
+      <Workflow></Workflow>
     </>
   )
 }
