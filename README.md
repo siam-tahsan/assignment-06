@@ -6,7 +6,7 @@ DigiTools is a modern React-based web application where users can browse premium
 
 ## 🌐 Live Demo
 
-🔗 Live Site: https://your-live-site-link.com
+🔗 Live Site: https://premium-digitool-assignment-06.netlify.app/
 
 🔗 GitHub Repository: https://github.com/siam-tahsan/assignment-06.git
 
