@@ -1,16 +1,68 @@
-# React + Vite
+# 🚀 DigiTools - Premium Digital Tools Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+DigiTools is a modern React-based web application where users can browse premium digital tools, add products to a shopping cart, remove items, and complete the checkout process. The application features a clean UI, responsive design, and a smooth shopping experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🔗 Live Site: https://your-live-site-link.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 GitHub Repository: https://github.com/siam-tahsan/assignment-06.git
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+# ✨ Features
+
+### 🛒 Smart Shopping Cart
+- Add products to the cart
+- Prevent duplicate products
+- Remove products individually
+- Proceed to checkout with a single click
+
+### 📦 Dynamic Product Listing
+- Products are loaded from a local JSON file
+- Responsive product cards
+- Product badges (Popular, New, Best Seller)
+- Product features displayed dynamically
+
+### 🔔 Interactive User Experience
+- Toast notifications for all cart actions
+- Dynamic cart counter
+- Responsive design for desktop, tablet, and mobile devices
+
+---
+
+# 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- Vite
+- HTML5
+- CSS3
+
+---
+
+
+
+# 📖 What You Can Do
+
+- Browse premium digital tools
+- View detailed product information
+- Add products to the shopping cart
+- Remove products from the cart
+- View total cart price
+- Complete checkout
+- Receive instant toast notifications
+
+---
+
+
+# Author
+
+**Siam Tahsan Dhruba**
+
