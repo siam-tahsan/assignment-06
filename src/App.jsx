@@ -10,6 +10,7 @@ import Steps from './assets/Components/Steps'
 import Transparent from './assets/Components/Transparent'
 import Workflow from './assets/Components/Workflow'
 import Footer from './assets/Components/Footer'
+import Premium from './assets/Components/Premium'
 
 const getProducts = async () => {
   const res = await fetch('/products.json')
@@ -28,10 +29,11 @@ function App() {
       <Navbar carts={carts}></Navbar>
       <Hero></Hero>
       <Activity></Activity>
+      <Premium></Premium>
 
       <div className="tabs tabs-box justify-center">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 " aria-label="Products" onClick={()=>setActiveTab('products')}defaultChecked/>
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart(${carts.length})`} onClick={()=>setActiveTab('cart')}/>
+        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 checked:!bg-[#7C3AED] checked:!text-white" aria-label="Products" onClick={()=>setActiveTab('products')}defaultChecked/>
+        <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 checked:!bg-[#7C3AED] checked:!text-white" aria-label={`Cart(${carts.length})`} onClick={()=>setActiveTab('cart')}/>
       </div>
       
       {activeTab === 'products' && <Products productsPromise={productsPromise}carts={carts} setCats={setCats}></Products>}
