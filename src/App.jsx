@@ -9,6 +9,7 @@ import Products from './assets/Components/Products'
 import Steps from './assets/Components/Steps'
 import Transparent from './assets/Components/Transparent'
 import Workflow from './assets/Components/Workflow'
+import Footer from './assets/Components/Footer'
 
 const getProducts = async () => {
   const res = await fetch('/products.json')
@@ -39,6 +40,7 @@ function App() {
       <Steps></Steps>
       <Transparent></Transparent>
       <Workflow></Workflow>
+      <Footer></Footer>
     </>
   )
 }
